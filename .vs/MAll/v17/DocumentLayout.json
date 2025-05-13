@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MAll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\buttonobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|d:\\mall\\assets\\stylized_astronaut\\character\\astronautplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\stylized_astronaut\\character\\astronautplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\respawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\respawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|D:\\MAll\\assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonOBJ.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\ButtonOBJ.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonOBJ.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\ButtonOBJ.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonOBJ.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAmwJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:17:47.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Button.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\Button.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Button.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\Button.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Button.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:50:23.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Table.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\Table.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Table.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\Table.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Table.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:11:13.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Respawn.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\Respawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Respawn.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\Respawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Respawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:07:27.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObjectDragger.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\ObjectDragger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectDragger.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\ObjectDragger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectDragger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:39:24.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AstronautPlayer.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
+              "RelativeToolTip": "Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAIBJwFkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:55:18.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraLock.cs",
+              "DocumentMoniker": "D:\\MAll\\Assets\\Scripts\\CameraLock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraLock.cs",
+              "ToolTip": "D:\\MAll\\Assets\\Scripts\\CameraLock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraLock.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:39:23.486Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
