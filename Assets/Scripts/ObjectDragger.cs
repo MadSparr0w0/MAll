@@ -6,11 +6,13 @@ public class ObjectDragger : MonoBehaviour
     public Vector3 holdOffset = new Vector3(0, 1.5f, 2f);
     public float pickupRadius = 0.5f;
     public LayerMask interactableLayer;
+    public float planeRotationAngle = 90f;
 
     private GameObject carriedObject;
     private bool isDragging;
     private PlayerMovement playerMovement;
     private Transform holdPoint;
+    private Quaternion planeRotationOffset;
 
     void Start()
     {
@@ -19,6 +21,8 @@ public class ObjectDragger : MonoBehaviour
         holdPoint = new GameObject("HoldPoint").transform;
         holdPoint.SetParent(transform);
         holdPoint.localPosition = holdOffset;
+
+        planeRotationOffset = Quaternion.Euler(0, planeRotationAngle, 0);
     }
 
     void Update()
@@ -37,7 +41,15 @@ public class ObjectDragger : MonoBehaviour
         if (isDragging && carriedObject != null)
         {
             carriedObject.transform.position = holdPoint.position;
-            carriedObject.transform.rotation = holdPoint.rotation;
+
+            if (carriedObject.CompareTag("Plane"))
+            {
+                carriedObject.transform.rotation = holdPoint.rotation * planeRotationOffset;
+            }
+            else
+            {
+                carriedObject.transform.rotation = holdPoint.rotation;
+            }
         }
     }
 
@@ -51,7 +63,7 @@ public class ObjectDragger : MonoBehaviour
 
         foreach (var collider in hitColliders)
         {
-            if (collider.CompareTag("Bug"))
+            if (collider.CompareTag("Bug") || collider.CompareTag("Plane"))
             {
                 Rigidbody rb = collider.GetComponent<Rigidbody>();
                 if (rb != null)

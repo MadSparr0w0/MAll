@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 5593195909026790557}
   - component: {fileID: 5593195910366287653}
   - component: {fileID: 5593195910366287650}
+  - component: {fileID: -7131886408830194652}
   m_Layer: 0
   m_Name: Stylized Astronaut
   m_TagString: Player
@@ -810,6 +811,26 @@ MonoBehaviour:
   jumpForce: 8
   gravity: 20
   rotationSpeed: 10
+  dragSlowdown: 0.5
+--- !u!114 &-7131886408830194652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5593195909017292627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc370c6c5a007a439d75d55c42303c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragKey: 101
+  holdOffset: {x: 0, y: 1.5, z: 2}
+  pickupRadius: 2
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  planeRotationAngle: 90
 --- !u!1 &5593195909017292629
 GameObject:
   m_ObjectHideFlags: 0

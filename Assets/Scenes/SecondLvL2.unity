@@ -1826,11 +1826,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragKey: 101
-  holdOffset: {x: 2, y: 1.5, z: 2}
+  holdOffset: {x: 0, y: 1.5, z: 2}
   pickupRadius: 2
   interactableLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  planeRotationAngle: 90
 --- !u!1 &1681375950
 GameObject:
   m_ObjectHideFlags: 0
