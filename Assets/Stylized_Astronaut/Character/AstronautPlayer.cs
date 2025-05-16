@@ -16,12 +16,17 @@ public class PlayerMovement : MonoBehaviour
     private bool isDragging;
     private float originalSpeed;
 
+    private float previousY; 
+    private bool isJumping;  
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         cameraTransform = Camera.main.transform;
         originalSpeed = moveSpeed;
+        previousY = 0f;
+        isJumping = false;
     }
 
     void Update()
@@ -63,15 +68,35 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space) && !isDragging)
             {
                 moveDirection.y = jumpForce;
+                anim.Play("Jump_start"); 
+                isJumping = true;
+            }
+            else if (isJumping)
+            {
+ 
+                anim.Play("Jump_end");
+                isJumping = false;
+            }
+            else
+            {
+                moveDirection.y = 0f;
             }
         }
         else
         {
             moveDirection.y -= gravity * Time.deltaTime;
+
+            if (Mathf.Abs(moveDirection.y - previousY) > 0.5f && !Input.GetKey(KeyCode.Space))
+            {
+                anim.Play("Jump_loop"); 
+            }
         }
+
+        previousY = moveDirection.y;
 
         controller.Move(moveDirection * Time.deltaTime);
     }
+
 
     public Vector3 GetCurrentVelocity()
     {

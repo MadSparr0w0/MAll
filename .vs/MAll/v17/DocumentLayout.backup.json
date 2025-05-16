@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "F:\\MAll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|f:\\mall\\assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|f:\\mall\\assets\\scripts\\scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\scripts\\scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\stylized_astronaut\\character\\astronautplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\stylized_astronaut\\character\\astronautplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectdragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE748CD7-3E79-100D-564C-790203F28710}|Assembly-CSharp.csproj|F:\\MAll\\assets\\scripts\\cameralock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scenes.cs",
               "DocumentMoniker": "F:\\MAll\\Assets\\Scripts\\Scenes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scenes.cs",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Scenes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:58:22.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T16:58:22.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ButtonOBJ.cs",
               "DocumentMoniker": "F:\\MAll\\Assets\\Scripts\\ButtonOBJ.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonOBJ.cs",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ButtonOBJ.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAowJYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:17:47.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T08:17:47.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Button.cs",
               "DocumentMoniker": "F:\\MAll\\Assets\\Scripts\\Button.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Button.cs",
@@ -109,20 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ObjectDragger.cs",
               "DocumentMoniker": "F:\\MAll\\Assets\\Scripts\\ObjectDragger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectDragger.cs",
               "ToolTip": "F:\\MAll\\Assets\\Scripts\\ObjectDragger.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectDragger.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwD4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T17:39:24.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AstronautPlayer.cs",
               "DocumentMoniker": "F:\\MAll\\Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "Assets\\Stylized_Astronaut\\Character\\AstronautPlayer.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAUwFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T11:55:18.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T11:55:18.743Z"
             },
             {
               "$type": "Document",
